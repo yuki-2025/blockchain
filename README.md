@@ -1,4 +1,4 @@
-# Blockchain App
+# App1 - Blockchain
 This app show the main features of blockchain and how they relate to key blockchain principles. It highlights important concepts like Proof of Work (PoW) and mining, which are crucial to understanding how blockchain technology operates.
 
 The app provides an interactive way for users to engage with these concepts, making it easier to grasp the fundamentals of blockchain technology. By allowing users to add transactions, mine blocks, and visualize the resulting blockchain, it offers a practical demonstration of how a basic blockchain functions.
@@ -35,6 +35,24 @@ Please also check The code demonstrates a basic implementation of a blockchain a
 The mining process involves solving a cryptographic puzzle (proof of work). It adjusts the nonce of the block until it finds a hash that matches the required difficulty (i.e., the hash starts with a certain number of leading zeros).
 Once a valid hash is found, the block is added to the chain, and the unconfirmed transactions are cleared.
 3. **Validation**: The block's hash is computed and validated against the proof-of-work (it must meet the difficulty criteria). This ensures that each block in the chain is tamper-resistant.
+
+---
+
+# App2 - Blockchain with Smart Contract
+![image](https://github.com/user-attachments/assets/b7bc7254-dd93-4151-83e1-ebd5e8e9c7f3)
+
+### SmartContract Class:
+**Purpose**: Represents a smart contract that can be deployed and executed on the blockchain. 
+**Key Functions**: 
+1. **Stores Transactions**:  Stores the Python code that defines the contract's behavior, the address of the contract creator, and the amount of cryptocurrency held by the contract.
+2. **execute**: Runs the contract's code with given parameters and updates the contract's state.
+
+### Workflow of Smart Contracts:
+1. **Contract Deployment**: Users create new contracts by providing code and an address, which are then stored in the blockchain.
+2. **Contract Execution**: Users interact with deployed contracts by calling their functions with specific parameters.
+3. **Mining Process**: Contract-related transactions are included in mined blocks, making them part of the blockchain's permanent record.
+4. **State Persistence**: The blockchain maintains and updates the state of each contract between executions.
+5. **Validation**: (In real systems) Ensures that contract operations comply with predefined rules and constraints.
 
 ### Principles Behind Blockchain:
 > 1. **Decentralization**: The blockchain allows for a decentralized system where transactions are verified without the need for a central authority.
