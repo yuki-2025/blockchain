@@ -41,6 +41,8 @@ Once a valid hash is found, the block is added to the chain, and the unconfirmed
 # App2 - Blockchain with Smart Contract
 ![image](https://github.com/user-attachments/assets/b7bc7254-dd93-4151-83e1-ebd5e8e9c7f3)
 
+Demo: https://blockchain-2.streamlit.app/
+
 ### SmartContract Class:
 **Purpose**: Represents a smart contract that can be deployed and executed on the blockchain. 
 **Key Functions**: 
